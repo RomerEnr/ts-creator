@@ -1,0 +1,41 @@
+{
+  "name": "ts-creator",
+  "version": "0.0.1",
+  "description": "A Basic typescript template starter",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "ts-creator": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*",
+    "dist"
+  ],
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "scripts": {
+    "dev": "npx unbuild --stub",
+    "build": "npx unbuild",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint --max-warnings 0 . --ext .ts,.tsx"
+  },
+  "keywords": [
+    "Typescript",
+    "Template"
+  ],
+  "author": "Romer Alvarez Martinez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^18.14.6",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.35.0",
+    "eslint-config-codely": "^2.1.3",
+    "minimist": "^1.2.8",
+    "typescript": "^4.9.5",
+    "unbuild": "^1.1.2"
+  }
+}
