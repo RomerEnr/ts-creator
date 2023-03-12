@@ -3,6 +3,14 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import {
+	copy,
+	formatTargetDir,
+	initializeGitRepository,
+	pkgFromUserAgent,
+	verifyFullPermissions,
+} from "./utils";
+
 const argv = minimist<{
 	t?: string;
 	type?: string;
