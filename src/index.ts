@@ -8,8 +8,8 @@ import {
 	formatTargetDir,
 	initializeGitRepository,
 	pkgFromUserAgent,
+	toValidPackageName,
 	verifyFullPermissions,
-	toValidPackageName
 } from "./utils";
 
 const argv = minimist<{
@@ -24,6 +24,8 @@ const renameFiles: Record<string, string | undefined> = {
 	_gitignore: ".gitignore",
 	_dockerignore: ".dockerignore",
 	_eslintrc: ".eslintrc.cjs",
+	_env: ".env",
+	_dockerfile: "Dockerfile",
 };
 
 const defaultDir = "my-backend-project";
