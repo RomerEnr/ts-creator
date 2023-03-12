@@ -9,6 +9,7 @@ import {
 	initializeGitRepository,
 	pkgFromUserAgent,
 	verifyFullPermissions,
+	toValidPackageName
 } from "./utils";
 
 const argv = minimist<{

@@ -3,6 +3,7 @@ node_modules
 .env
 .DS_Store
 .vscode
+package-lock.json
 
 .vscode/*
 !.vscode/settings.json

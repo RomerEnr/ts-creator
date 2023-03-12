@@ -28,5 +28,5 @@ ts-creator [nombre del proyecto] -[opciones] [tipo de proyecto]
 
 | Tipo | Descripción |
 | ---- | ----------- |
-| empty | Crea un proyecto de NodeJS con Typescript con las mínimas dependencias |
-| express | Crea un proyecto de NodeJS con Typescript con las dependencias de Express |
+| back-empty | Crea un proyecto de NodeJS con Typescript con las mínimas dependencias |
+| back-express | Crea un proyecto de NodeJS con Typescript con las dependencias de Express |
